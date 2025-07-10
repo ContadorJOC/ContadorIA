@@ -5,4 +5,8 @@ services:
     plan: free
     region: oregon
     buildCommand: "" # No necesita build
+<<<<<<< HEAD
     startCommand: php -S 0.0.0.0:8080 -t .
+=======
+    startCommand: php -S 0.0.0.0:8080 -t .
+>>>>>>> 23e0c60fc325ed903df4c9570f4f9dcf30a5f90a
