@@ -2,7 +2,7 @@ services:
   - type: web
     name: contable-ia
     env: php
-    buildCommand: ""
-    startCommand: "php -S 0.0.0.0:8080 -t ."
     plan: free
     region: oregon
+    buildCommand: "" # No necesita build
+    startCommand: php -S 0.0.0.0:8080 -t .
