@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ContadorIA
+    env: php
+    plan: free
+    region: oregon
+    buildCommand: "" # No hay nada que compilar
+    startCommand: php -S 0.0.0.0:8080 -t .
+    autoDeploy: true
